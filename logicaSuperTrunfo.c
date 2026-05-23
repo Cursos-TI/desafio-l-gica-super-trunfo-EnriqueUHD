@@ -117,6 +117,7 @@ int main() {
             } else {
                 printf("****Empate!****\n\n");
             };
+            break;
         case 2 :
             printf("****Comparação de cartas (Atributo: Área)****\n\n");
             printf("Carta 1 - %s: %.2f\n", nomeCidade1, area1);
@@ -128,6 +129,7 @@ int main() {
             } else {
                 printf("****Empate!****\n\n");
             };
+            break;
         case 3 :
             printf("****Comparação de cartas (Atributo: PIB)****\n\n");
             printf("Carta 1 - %s: %.2f\n", nomeCidade1, pib1);
@@ -139,6 +141,7 @@ int main() {
             } else {
                 printf("****Empate!****\n\n");
             };
+            break;
         case 4 :
             printf("****Comparação de cartas (Atributo: Pontos turisticos)****\n\n");
             printf("Carta 1 - %s: %d\n", nomeCidade1, pontosTuristicos1);
@@ -150,6 +153,7 @@ int main() {
             } else {
                 printf("****Empate!****\n\n");
             };
+            break;
         case 5 :
             printf("****Comparação de cartas (Atributo: Densidade Populacional)****\n\n");
             printf("Carta 1 - %s: %.2f\n", nomeCidade1, densidade1);
@@ -161,6 +165,7 @@ int main() {
             } else {
                 printf("****Empate!****\n\n");
             };
+            break;
         case 6 :
             printf("****Comparação de cartas (Atributo: PIB per Capita)****\n\n");
             printf("Carta 1 - %s: %.2f\n", nomeCidade1, pibPerCapita1);
@@ -172,6 +177,7 @@ int main() {
             } else {
                 printf("****Empate!****\n\n");
             };
+            break;
         case 7 :
             printf("****Comparação de cartas (Atributo: Super Poder)****\n\n");
             printf("Carta 1 - %s: %.2f\n", nomeCidade1, superPoder1);
@@ -184,6 +190,7 @@ int main() {
             } else {
                 printf("****Empate!****\n\n");
             };
+            break;
         default: printf("****Opção inválida.****\n\n");
     }
 
